@@ -1,0 +1,33 @@
+<!DOCTYPE html> <html lang="fr"> <head> 
+  <meta charset="UTF-8"> <title>Admin - 
+  Immobilière Zidane</title> <link 
+  rel="stylesheet" href="css/style.css">
+</head> <body> <h1>Connexion Admin</h1> 
+  <div class="admin-login">
+    <input type="password" id="mdp" 
+    placeholder="Mot de passe admin"> 
+    <button onclick="verifierAdmin()">Se 
+    connecter</button>
+  </div> <div id="adminPanel" 
+  class="zone-resultat" style="display: 
+  none;">
+    <h3>Bienvenue, Admin !</h3> <ul> 
+      <li>📦 Ajouter un bien</li> <li>🗑️ 
+      Supprimer un bien</li> <li>📈 Voir 
+      statistiques</li>
+    </ul> </div> <script> function 
+    verifierAdmin() {
+      let mdp = 
+      document.getElementById("mdp").value; 
+      if (mdp === "zidane2025") {
+        document.querySelector(".admin-login").style.display 
+        = "none"; 
+        document.getElementById("adminPanel").style.display 
+        = "block";
+      } else {
+        alert("Mot de passe incorrect 
+        !");
+      }
+    }
+  </script> </body>
+</html>

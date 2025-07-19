@@ -1,0 +1,31 @@
+# 🏡 imoZidane - Agence Immobilière Digitale
+
+Bienvenue sur le dépôt officiel de **imoZidane**, une agence immobilière digitale moderne conçue pour faciliter la recherche, la consultation et la mise en relation entre acheteurs et vendeurs de biens immobiliers.
+
+## 🌐 Lien en ligne
+
+Accédez au site ici 👉 [https://mauriciodkgh.github.io/www.imoZidane.com](https://mauriciodkgh.github.io/www.imoZidane.com)
+
+---
+
+## 📌 Description
+
+**imoZidane** est une plateforme web responsive qui présente :
+- Des annonces immobilières avec images.
+- Une page "À propos" moderne avec photo/vidéo d’équipe et carte Google Maps.
+- Un formulaire de contact direct.
+- Un espace Admin (en développement) pour gérer les biens.
+- Intégration de WhatsApp pour un contact rapide.
+
+---
+
+## 🛠️ Technologies utilisées
+
+- HTML5, CSS3, JavaScript
+- Tailwind CSS pour le design
+- Flask (Python) pour les fonctionnalités backend (admin & upload)
+- GitHub Pages pour l’hébergement
+
+---
+
+## 📁 Structure du projet

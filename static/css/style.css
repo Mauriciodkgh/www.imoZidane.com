@@ -1,0 +1,47 @@
+body { font-family: Arial, sans-serif; 
+  background-color: #f9fafb; color: 
+  #1f2937;
+  margin: 0; padding: 0;
+}
+header { background-color: #0f172a; 
+  color: white; padding: 15px; display: 
+  flex; justify-content: space-between; 
+  align-items: center;
+}
+.logo { height: 50px;
+}
+nav button { background-color: #1e40af; 
+  color: white; border: none; 
+  margin-left: 10px; padding: 10px; 
+  border-radius: 6px; cursor: pointer;
+}
+nav button:hover { background-color: 
+  #1d4ed8;
+}
+main { padding: 20px;
+}
+#ai-chat {
+  margin-top: 30px;
+}
+#userInput {
+  width: 60%; padding: 10px;
+}
+#aiResponse {
+  margin-top: 10px; background: #e2e8f0; 
+  padding: 15px; border-radius: 5px;
+}
+/* admin/style.css */ body { font-family: 
+  Arial, sans-serif; background-color: 
+  #f1f5f9;
+  padding: 30px;
+}
+h2 { color: #1e293b;
+}
+form { background: #e2e8f0; padding: 
+  20px; border-radius: 10px; width: 
+  300px;
+}
+input, textarea, button { width: 100%; 
+  margin-top: 10px; padding: 10px; 
+  border-radius: 5px;
+}
